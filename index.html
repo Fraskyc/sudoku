@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sudoku</h1>
+    <label for="difficulty">Vyberte obtížnost:</label>
+    <select id="difficulty">
+        <option value="easy">Lehká</option>
+        <option value="medium">Střední</option>
+        <option value="hard">Těžká</option>
+    </select>
+    <button onclick="generateSudoku()">Generovat Sudoku</button>
+    <div id="sudoku-board"></div>
+    <script src="script.js"></script>
+</body>
+</html>
